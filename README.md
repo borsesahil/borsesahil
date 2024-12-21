@@ -10,7 +10,7 @@
   Open-source projects, software development, and IT-related initiatives that make a difference.  
 
 - 📫 **How to reach me:**  
-  📧 Email: sahil.borse@example.com  
+  📧 Email: sahil.borse2004@gmail.com  
   💼 www.linkedin.com/in/sahil-borse  
 
 - 😄 **Pronouns:** He/Him  
