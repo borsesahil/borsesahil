@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australian Census Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <img src="abslogo.png" alt="Logo">
+    <h1>Australian Bureau Of Statistics</h1>
+</header>
+
+<body>
+    <form method="POST" action="https://tau.usq.edu.au/courses/CSC2406/reflect.php">
+
+        <!-- Section 1: People in the Dwelling -->
+        <div class="section" id="section1">
+            <h2>Section 1: People in the Dwelling</h2>
+            <label for="numPeople">How many people spent the census night at the dwelling?</label>
+            <input type="number" id="numPeople" min="1">
+            <button type="button" id="nextSection1">Next</button>
+        </div>
+
+        <!-- Section 2: Individual Information -->
+        <div class="section" id="section2">
+            <h2>Section 2: Individual Information</h2>
+            
+            <div id="individualInfoContainer"></div>
+            <button type="button" id="prevSection2">Previous</button>
+            <button type="button" id="nextSection2">Next</button>
+        </div>
+
+        <!-- Section 3: Household Details -->
+        <div class="section" id="section3">
+            <h2>Section 3: Household Details</h2>
+            <label for="numHousehold">Number of People:</label>
+            <input type="number" id="numHousehold" name="numHousehold" min="1" required>
+            <label for="residenceType">Type of Residence:</label>
+            <select id="residenceType" name="residenceType" required>
+                <option value="house">House</option>
+                <option value="apartment">Apartment</option>
+                <option value="condo">Condo</option>
+            </select>
+            <label for="numBedrooms">Number of Bedrooms:</label>
+            <input type="number" id="numBedrooms" name="numBedrooms" min="1" required>
+            <label for="numBathrooms">Number of Bathrooms:</label>
+            <input type="number" id="numBathrooms" name="numBathrooms" min="1" required>
+            <button type="button" id="prevSection3">Previous</button>
+            <button type="button" id="nextSection3">Next</button>
+        </div>
+
+        <!-- Section 4: Animals -->
+        <div class="section" id="section4">
+            <h2>Section 4: Animals</h2>
+            <label for="numAnimals">How many types of animals were at the dwelling?</label>
+            <input type="number" id="numAnimals" min="1">
+            
+            <div id="animalInfoContainer"></div>
+            <button type="button" id="prevSection4">Previous</button>
+            <button type="button" id="nextSection4">Next</button>
+        </div>
+
+        <!-- Section 5: Feedback -->
+        <div class="section" id="section5">
+            <h2>Section 5: Rating the Example Questionnaire</h2>
+            <label for="navigationDifficulty">How difficult was this questionnaire to navigate?</label>
+            <select id="navigationDifficulty" name="navigationDifficulty" required>
+                <option value="very_hard">Very Hard</option>
+                <option value="hard">Hard</option>
+                <option value="ok">OK</option>
+                <option value="easy">Easy</option>
+                <option value="very_easy">Very Easy</option>
+            </select>
+
+            <label for="inputRequirements">Were the input requirements of each question easy to follow?</label>
+            <select id="inputRequirements" name="inputRequirements" required>
+                <option value="very_confusing">Very Confusing</option>
+                <option value="confusing">Confusing</option>
+                <option value="ok">OK</option>
+                <option value="clear">Clear</option>
+                <option value="very_clear">Very Clear</option>
+            </select>
+
+            <label for="useHelp">Did you need to use the Help?</label>
+            <select id="useHelp" name="useHelp" required>
+                <option value="very_often">Very Often</option>
+                <option value="often">Often</option>
+                <option value="occasionally">Occasionally</option>
+                <option value="never">Never</option>
+            </select>
+
+            <label for="helpUseful">Did you find the help useful?</label>
+            <select id="helpUseful" name="helpUseful" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="did_not_use_it">Did not use it</option>
+            </select>
+
+            <label for="otherComments">Any other comments you would like to make?</label>
+            <textarea id="otherComments" name="otherComments"></textarea>
+
+            <button type="button" id="prevSection5">Previous</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

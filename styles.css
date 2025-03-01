@@ -1,0 +1,85 @@
+/* Style for individual sections */
+header img {
+    width: 100px; 
+    height: auto; 
+}
+.section {
+    background-color: #fcd6b5;
+    padding: 20px;
+    border: 1px solid #fac08e;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Style for the heading */
+h2 {
+    color: #231f20;
+    margin-bottom: 10px;
+}
+
+/* Style for labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #231f20;
+}
+
+/* Style for input fields and selects */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #231f20;
+    border-radius: 4px;
+}
+
+/* Style for radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style for buttons */
+button {
+    background-color: #fac08e;
+    color: #231f20;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #fcd6b5;
+}
+
+/* Style for help pop-ups */
+.help-popup {
+    display: none;
+    background-color: #fcd6b5;
+    color: #231f20;
+    border: 1px solid #fac08e;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    max-width: 300px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Style for links that open help pop-ups */
+.help-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Style for individual number in the heading */
+.individual-number {
+    font-weight: bold;
+    color: #231f20;
+}
