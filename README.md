@@ -1,10 +1,10 @@
 # 👋 Hi, I’m @borsesahil  
 
 - 👀 **I’m interested in:**  
-  Information Technology, Cybersecurity, Software Development, and all things tech!  
+  Information Technology, Software Development, and all things tech!  
 
 - 🌱 **I’m currently learning:**  
-  Cybersecurity principles through Google's online courses and honing my programming skills in Java, Python, and more.  
+  CS principles through Google's online courses and honing my programming skills in Java, Python, and more.  
 
 - 💞️ **I’m looking to collaborate on:**  
   Open-source projects, software development, and IT-related initiatives that make a difference.  
